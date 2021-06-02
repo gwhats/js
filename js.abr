@@ -27,7 +27,7 @@ function convertImgToBase64URL(url, callback, outputFormat){
         callback(dataURL);
         canvas = null; 
     };
-    img.src = url;
+    img.src = url; 
 };
 
 function SetConsoleMessage(jsName, resultValue) {
